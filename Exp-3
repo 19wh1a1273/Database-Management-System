@@ -60,8 +60,8 @@ PNR no	 Addr					 Phno
 Eg: 3rd Normal Form:
 Tno Journey Date Day Seatno Src   Dest  Deptime  Gender  Bus no
 2100   15/08/10      Sun   35       Hyd  Delhi 10hrs         M        AP1000
-2710   20/08/10       Mon28      B’lore Hyd  15hrs         F        AP2014
-1020   22/08/10       Wed 38      Delhi  B’lore 18hrs        F         AP2387
+2710   20/08/10       Mon28      Bâ€™lore Hyd  15hrs         F        AP2014
+1020   22/08/10       Wed 38      Delhi  Bâ€™lore 18hrs        F         AP2387
 6100 10/08/10        Tue 20     Hyd   Chennai 14hrs     M      AP09525
 1478 25/08/10        Wed 15   Chennai Delhi 06hrs       F       AP29457
 
@@ -70,8 +70,8 @@ Journey Date -> Day
 The Table is normalized as follows:
 Tno 	Seatno Src Dest Deptime Gender Bus no
 2100 	35	 Hyd Delhi 10:00	M 	AP1000
-2710 	28 	B’lore Hyd 15:00 	F 	AP2014
-1020 	38 	Delhi B’lore 18:00 	F	AP2387
+2710 	28 	Bâ€™lore Hyd 15:00 	F 	AP2014
+1020 	38 	Delhi Bâ€™lore 18:00 	F	AP2387
 6100 	20 	Hyd Chennai 14:00 M 	AP09525
 1478 	15 	Chennai Delhi 06:00 F	AP29457
 Journey Date Day
